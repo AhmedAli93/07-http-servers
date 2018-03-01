@@ -6,4 +6,4 @@ module.exports = function(req, callback) {
   req.on('data', function(data) {
     req.body += data.toString();
   });
-}
+};
